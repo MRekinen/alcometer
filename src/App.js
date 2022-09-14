@@ -17,7 +17,7 @@ const calculate = (e) => {
   let grams = litres * 8 * 4.5
   let burning = weight / 10
   let gramsLeft = grams - (burning * time)
-  
+
   if (gender === 'male') {
     tulos = gramsLeft / (weight * 0.7)
     if (result < 0) {
